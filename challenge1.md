@@ -3,32 +3,32 @@ In this coding challenge, you'll embark on an epic journey that combines the wor
 
 Your program should achieve the following:
 
-1. Create a Python class named PortalDevice that has the following methods:
+1. Create a Python class named `PortalDevice` that has the following methods:
 
-- __init__(self): Initializes the portal device with default values.
+- `__init__(self)`: Initializes the portal device with default values.
 
-- add_marvel_character(self, character_name): Adds a Marvel character to the portal device.
+- `add_marvel_character(self, character_name)`: Adds a Marvel character to the portal device.
 
-- transport_to_narnia(self): Transports all added Marvel characters to Narnia.
+- `transport_to_narnia(self)`: Transports all added Marvel characters to Narnia.
 
-- list_characters_in_narnia(self): Lists all the Marvel characters currently in Narnia.
+- `list_characters_in_narnia(self)`: Lists all the Marvel characters currently in Narnia.
 
-- clear_narnia(self): Removes all Marvel characters from Narnia.
+- `clear_narnia(self)`: Removes all Marvel characters from Narnia.
 
-2. Create a Python class named NarniaLand that has the following methods:
+2. Create a Python class named `NarniaLand` that has the following methods:
 
-- __init__(self): Initializes Narnia with an empty list of characters.
+- `__init__(self)`: Initializes Narnia with an empty list of characters.
 
-- accept_marvel_characters(self, characters): Accepts a list of Marvel characters and brings them into Narnia.
+- `accept_marvel_characters(self, characters)`: Accepts a list of Marvel characters and brings them into Narnia.
 
-- list_characters(self): Lists all the characters currently in Narnia.
+- `list_characters(self)`: Lists all the characters currently in Narnia.
 
 You need to ensure that:
 
-- The PortalDevice can hold a maximum of 10 Marvel characters at a time.
+- The `PortalDevice` can hold a maximum of 10 Marvel characters at a time.
 - When you transport characters to Narnia, they are removed from the portal device and added to Narnia.
 - When you clear Narnia, all characters are removed from Narnia.
-- The list_characters method of NarniaLand displays the names of all characters currently in Narnia.
+- The `list_characters` method of `NarniaLand` displays the names of all characters currently in Narnia.
 
 Here's an example of how to use the classes:
 
@@ -61,4 +61,4 @@ print("Characters in Narnia after clearing:", narnia.list_characters())
 ```
 
 
-Your challenge is to implement the PortalDevice and NarniaLand classes and test them using the provided example. Make sure the program handles the specified requirements and provides the expected output.
+Your challenge is to implement the `PortalDevice` and `NarniaLand` classes and test them using the provided example. Make sure the program handles the specified requirements and provides the expected output.
