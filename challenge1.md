@@ -13,8 +13,6 @@ Your program should achieve the following:
 
 - `list_characters_in_narnia(self)`: Lists all the Marvel characters currently in Narnia.
 
-- `clear_narnia(self)`: Removes all Marvel characters from Narnia.
-
 2. Create a Python class named `NarniaLand` that has the following methods:
 
 - `__init__(self)`: Initializes Narnia with an empty list of characters.
@@ -22,6 +20,8 @@ Your program should achieve the following:
 - `accept_marvel_characters(self, characters)`: Accepts a list of Marvel characters and brings them into Narnia.
 
 - `list_characters(self)`: Lists all the characters currently in Narnia.
+
+- `clear_narnia(self)`: Removes all Marvel characters from Narnia.
 
 You need to ensure that:
 
